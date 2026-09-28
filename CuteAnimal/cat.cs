@@ -5,11 +5,24 @@ namespace CuteAnimal
     public class Cat
     {
         private string name;
-        private int energy;
         private Mood moodStatus;
         private Feed feedStatus;
 
         private Random random;
+
+        private int energy;
+        public int Energy
+        {
+            get
+            {
+                return energy;
+            }
+
+            set
+            {
+                energy = value;
+            }
+        }
 
         private Cat()
         {
@@ -33,3 +46,4 @@ namespace CuteAnimal
         }
     }
 }
+        //public int getEnergy() => energy;
