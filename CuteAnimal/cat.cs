@@ -4,4 +4,6 @@ public class Cat
     private int energy;
     private Mood moodStatus;
     private Feed feedStatus;
+
+    //
 }
